@@ -1,0 +1,50 @@
+ao;GESCHIKTHEID\n{Werknemernaam} heeft beperkingen als gevolg van ziekte of gebrek. Vanwege deze beperkingen kan {gender} de werkzaamheden van de functie niet volledig uitvoeren. Hieronder leest u mijn advies over de belastbaarheid en de onderbouwing daarvan.\n
+
+update;\nUPDATE\n
+reintegratie;\nREINTEGRATIE-ADVIES\n
+
+contact; {Werknemernaam} kan op dit moment nog geen werkzaamheden verrichten. Het is belangrijk om regelmatig contact te houden.\nIk adviseer het volgende\n- {Werknemernaam} en de leidinggevende hebben wekelijks contact.\n- De leidinggevende zorgt ervoor dat de afspraken worden ingepland.\n- Bespreek samen wat er voor nodig is om een volgende stap te maken in de reintegratie.\n
+koffie;{Werknemernaam} kan op dit moment nog niet starten met het verrichten van werkzaamheden. Wel zijn er mogelijkheden voor contact op locatie.\nIk adviseer het volgende\n- {Werknemernaam} bezoekt wekelijks de locatie voor een contactmoment (bv een koffie of een wandelafspraak).\n- De leidinggevende zorgt ervoor dat de afspraken worden ingepland.\n- Maak samen een stappenplan wat er voor nodig is om weer aan het werk te kunnen gaan.\n
+aangepast_werk;{Werknemernaam} kan op dit moment aangepaste werkzaamheden verrichten.\nIk adviseer het volgende\n- De leidinggevende en {werknemernaam} maken samen een overzicht van de werkzaamheden die {gender} op dit moment kan uitvoeren. \n
+eigen_werk;{Werknemernaam} kan op dit moment deels de eigen werkzaamheden verrichten. \nIk adviseer het volgende:\n- De leidinggevende en {werknemernaam} maken samen een overzicht van de werkzaamheden die {gender} op dit moment kan uitvoeren.\n
+
+huidige_uren; Op dit moment werkt {werknemernaam} {huidige_uren}.\n
+
+schema0;- Begin vanaf volgende week met {startschema}.\n
+
+status0; {Werknemernaam} werkt momenteel niet.\n
+status1; {Werknemernaam} werkt nu ongeveer {huidige_uren}. \n
+status2; Op dit moment werkt {werknemernaam} {huidige_uren} per week.\n
+
+
+hervattingPrognose;- Maak samen afspraken over een re-integratietraject waarbij {werknemernaam} opbouwt en toewerkt naar volledige werkhervatting binnen ongeveer {prognose}.  Leg de afspraken vast in het plan van aanpak. \n
+hervattingGeenPrognose;- Maak samen afspraken over een re-integratietraject waarbij  {werknemernaam} stapsgewijs opbouwt in het werk. Leg de afspraken vast in het plan van aanpak.\n
+hervattingGeenPrognoseOld;- Maak samen afspraken over een re-integratietraject om stapsgewijs op te bouwen in het werk. Leg de afspraken vast in het plan van aanpak. \n
+
+evaluatie_ba;- Tijdens het volgende spreekuur zal opnieuw beoordeeld worden of er al re-integratiemogelijkheden zijn. \n
+evaluatie0;- Evalueer iedere 2 weken hoe het gaat, en bespreek of er al mogelijkheden zijn om de reintegratie op te starten.\n
+evaluatie1;- Evalueer regelmatig hoe het gaat en maak afspraken voor de weken erna.\n
+evaluatie2;- Evalueer iedere 2 weken hoe het gaat, en overleg of het mogelijk is om een stap vooruit te zetten in uren of in het type werkzaamheden.\n\n
+
+
+mentaal;\nRE-INTEGRATIE ADVIES\nHet huidige verzuim is het gevolg van overbelasting. Het herstelproces bij een overbelasting bestaat uit drie fasen. Iedere fase duurt gemiddeld tussen de 3 en 6 weken.
+
+fase0;{Werknemernaam} zit momenteel in de eerste herstelfase. In deze fase is het belangrijk dat de werknemer de tijd en ruimte krijgt om te herstellen, zonder druk of verplichtingen. Mijn advies is het volgende:\n- Rust en herstel: Richt je op herstel door gedurende de dag een balans te vinden tussen inspanning en ontspanning. Vermijd activiteiten die stress kunnen veroorzaken. Zorg daarnaast voor voldoende beweging en een goede nachtrust.\n- Structuur en planning: Maak een dagschema waarin dagelijks lichte fysieke activiteiten op vaste momenten worden ingepland. Plan wekelijks een moment in het weekschema voor contact met de leidinggevende.\n- Ondersteuning door de leidinggevende: De leidinggevende is verantwoordelijk voor het inplannen van afspraken en biedt ondersteuning aan de werknemer tijdens deze fase. Werkhervatting staat op dit moment nog niet centraal.\n
+
+fase1;{Werknemernaam} zit momenteel in de tweede herstelfase. In deze fase is de werknemer enigszins gestabiliseerd. Er kan begonnen worden met herstel van werkfunctioneren, door allereerst de oorzaken van de problemen te onderzoeken. Het advies in deze fase is als volgt:\n- De werknemer en de leidinggevende hebben wekelijks contact.\n- Probleemorientatie: Bespreek tijdens deze contacten hoe een werkomgeving eruit ziet waarin {werknemernaam} met plezier zou willen werken, en bekijk samen wat hiervoor nodig is. Bespreek ook de werkgerelateerde factoren die hebben bijgedragen aan de klachten, bijvoobeeld taken die niet aansluiten bij de wensen/vaardigheden van {werknemernaam}, een gebrek aan motivatie, conflicten op de werkvloer, onvoldoende sociale steun, en/of een gebrek aan autonomie.\n- Plan maken: Maak samen een plan om de werkstressoren aan te pakken en maak afspraken over de start van de reintegratie. Neem dit plan mee naar het volgende consult.\n
+
+
+fase2;{Werknemernaam} zit momenteel in de derde herstelfase. In deze laatste fase richt de werknemer zich op terugkeer naar werk en het handhaven stabiliteit. Het advies voor deze fase is:\n- Overzicht werkzaamheden: Maak samen een overzicht van de verschillende werkzaamheden, en bespreek welke werkzaamheden als eerste weer opgepakt kunnen worden. \n- Stapsgewijze terugkeer: Stel samen een reintegratieplan op voor een geleidelijke opbouw van werkuren en taken. Bijvoorbeeld: begin met {startschema} en breid de werkbelasting iedere 2 weken uit om zo in 6 weken te komen tot volledige hervatting. Neem het plan mee naar het volgende spreekuur.\n- Preventie: Bespreek of tijdelijke of permanente aanpassingen aan taken en/of verantwoordelijkheden nodig zijn om terugval te voorkomen. Plan periodieke gesprekken om de balans tussen belasting en belastbaarheid te bewaken en voorkom overbelasting door tijdig een preventief spreekuur in te plannen.\n
+
+fase3; \nOp dit moment is er sprake van stagnatie. {Werknemernaam} zit nog steeds in {fase}. Omdat er sprake is van stagnatie, is het essentieel dat de leidinggevende en {werknemernaam} samen onderzoeken wat er nodig is om tot (functionerings)herstel te komen. Bespreek daarbij de volgende punten:\n- welke acties zijn door de werkende en/of de werkomgeving al ondernomen?\n- Waarom hebben deze acties nog niet tot het gewenste resultaat geleid?\n- Wat staat in de weg om de hersteltaken te vervullen?\n- Welke factoren, zowel op persoonlijk als op werkniveau, spelen een rol bij het hervatten van het werk?\n- Wat kan er nog meer worden gedaan door zowel werkgever als werknemer om de re-integratie te bevorderen?\n
+
+
+beperkingen;\nFUNCTIONELE BEPERKINGEN\nHet is belangrijk dat de leidinggevende/werkgever rekening houden met de beperkingen van de werknemer. U leest hieronder welke dat zijn.\n
+beperkingen_F;- de dynamische handelingen: het leveren van fysieke inspanning (lopen, traplopen, tillen/dragen, duwen/trekken)\n
+beperkingen_P;- het persoonlijk functioneren: werken onder tijdsdruk, werken met deadlines/hectiek, werken met veel prikkels/drukte\n
+beperkingen_S;- het sociale functioneren: omgaan met eigen emoties en emoties van anderen, omgang met conflicten\n
+beperkingen_E;- de werktijden: vanwege bovengenoemde beperkingen, is er tijdelijk een beperkte energie en een verhoogde herstelbehoefte.\n
+
+pa;\nPROBLEEMANALYSE\nEr zal een probleemanalyse worden opgesteld aangezien het ziekteverzuim langer dan 6 weken duurt en/of de datum voor volledige werkhervatting nog niet duidelijk is. Deze analyse wordt apart van deze terugkoppeling aan werknemer en werkgever verzonden per email. Lees deze analyse voor het volledige re-integratie advies.\nWerknemer en leidinggevende wordt geadviseerd deze probleemanalyse te gaan bespreken en gezamenlijk een plan van aanpak op te gaan stellen. Beschrijf in het plan van aanpak de wijze waarop contact met elkaar wordt onderhouden en de manier waarop collega's worden geïnformeerd.\n
+
+izp;\nINZETBAARHEIDSPROFIEL\nVandaag heb ik het inzetbaarheidsprofiel opgesteld. Ik adviseer om op basis hiervan een arbeidsdeskundig (AD) onderzoek te laten plaatsvinden. Dit kan namelijk meer inzicht geven  in de toekomstige mogelijkheden voor aangepast werk bij de eigen werkgever (eerste spoor re-integratietraject) of bij andere werkgever (tweede spoor re-integratietraject).\n

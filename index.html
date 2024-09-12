@@ -1,0 +1,105 @@
+<!doctype html>
+
+<html>
+    <head>
+        <!-- Recommended meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+        <!-- PyScript CSS -->
+        <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+
+        <!-- This script tag bootstraps PyScript -->
+        <script src="https://pyscript.net/releases/2024.1.1/core.js" defer=""></script>
+
+        <!-- own css-->
+        <link rel="stylesheet" href="/dist/index.27513787.css">
+        <title>Advice App</title>
+    </head>
+
+    <body>
+    <div id="container">
+
+    <div id="leftPane">
+    <h1>Advice App</h1>
+    <!-- Name Input -->
+    <label for="naam"><strong>Naam</strong> (bv Jansen):</label>
+    <input type="text" id="naam" value="******"><br><br>
+
+    <!-- Gender Selection -->
+    <label for="gender_group"><strong>Gender:</strong></label>
+    <input type="radio" id="gender_vrouw" name="gender_group" value="vrouw" checked=""> Vrouw
+    <input type="radio" id="gender_man" name="gender_group" value="man"> Man<br><br>
+
+    <!-- Contract and Current Work Hours Sliders -->
+    <!--<label for="slider_contracturen">Contracturen (uur/week):</label>-->
+    <!--input type="range" id="slider_contracturen" min="0" max="40" value="40"><br><br-->
+
+    <label for="slider_huidige_uren">Huidige werkuren (uur/week):</label>
+    <input type="range" id="slider_huidige_uren" min="0" max="40" value="0"><br><br>
+
+    <!-- Checkboxes for Limitations -->
+    <label><strong>Beperkingen:</strong></label>
+    <input type="checkbox" id="pb"> Persoonlijk
+    <input type="checkbox" id="sb"> Sociaal
+    <input type="checkbox" id="fb"> Fysiek
+    <input type="checkbox" id="eb" checked=""> Energie<br><br>
+
+    <!-- Diagnosis Group Selection -->
+    <strong><label for="diagnose_group">Diagnose:</label></strong>
+    <input type="radio" id="diagnose_other" name="diagnose_group" value="other" checked=""> Other
+    <input type="radio" id="diagnose_mental" name="diagnose_group" value="mental"> Mental<br><br>
+
+    <blockquote>
+    <div id="col_other_diag">
+    <strong><div>Reintegratiemogelijkheden</div></strong>
+    <div id="werk_group"> <!-- Add your actual input elements here -->
+         <!--label for="werk_group">Werk:</--label-->
+        <input type="radio" id="contact" name="werk_group" value="contact"> Contact
+        <input type="radio" id="koffie" name="werk_group" value="koffie"> Koffie
+        <input type="radio" id="aangepast_werk" name="werk_group" value="aangepast_werk"> Aangepast werk
+        <input type="radio" id="eigen_werk" name="werk_group" value="eigen_werk" checked=""> Eigen werk<br><br>
+    </div>
+    </div>
+
+    <div id="col_mental_diag">
+    <strong><div>Herstelfase</div></strong>
+    <div id="fase_group">
+        <input type="radio" id="fase0" name="fase_group" value="fase0" checked=""> Fase 0
+        <input type="radio" id="fase1" name="fase_group" value="fase1"> Fase 1
+        <input type="radio" id="fase2" name="fase_group" value="fase2"> Fase 2
+        <input type="radio" id="stagnatie" name="fase_group" value="fase3"> Stagnatie
+        <br><br>
+    </div>
+    </div>
+
+
+    <!-- Start Schema and Prognosis -->
+    <strong><label for="startschema">Startschema:</label></strong>
+    <input type="text" id="startschema" value="3 dagen van 2 uur">
+    <div id="opbouw_group">
+        <input type="radio" id="opbouw" name="opbouw_group" value="opbouw" checked="">  Opbouw
+        <input type="radio" id="geen_opbouw" name="opbouw_group" value="geen_opbouw"> Geen opbouw
+    </div>
+    <br>
+    </blockquote>
+
+    <strong><label for="prognose">Prognose:</label></strong>
+    <input type="text" id="prognose" value="3 maanden"><br><br>
+
+    <!-- Problem Analysis and IZP Checkboxes -->
+    <input type="checkbox" id="probleemanalyse"> Probleemanalyse
+    <input type="checkbox" id="izp"> IZP<br><br>
+
+    </div>
+
+    <!-- Text Area for Output -->
+    <div id="rightPane">
+    <textarea id="terugkoppeling" spellcheck="false" rows="10" cols="50">Schrijf hier eigen advies</textarea><br><br>
+    </div></div>
+
+    <script src="/dist/index.9b75db0d.js"></script>
+    <script src="/dist/index.870f7075.js"></script>
+    </body>
+
+</html>

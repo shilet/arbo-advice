@@ -1,0 +1,51 @@
+/* Ensure the html and body take up the full height */
+html, body {
+    height: 95vh;
+    margin: 5px;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Change this to your desired font */
+    font-size: 16px; /* Adjust the font size as needed */
+    background-color: #dfe7e9;
+}
+
+/* Container for both mainContainer and textarea */
+#container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box; /* Include padding and border in element's width and height */
+    /*background-color: lightcoral*/
+}
+
+#leftPane, #rightPane {
+    flex: 1; /* Each pane takes up equal space */
+    margin-left:10px;
+    /*height: 95%;*/ /* Full height */
+}
+
+/* Optional: Add some background colors for visual distinction */
+#leftPane {
+    flex: 1;
+    background-color: #dfe7e9;
+/*    background-color: ##dfd3d2;;*/
+}
+
+#rightPane {
+    flex: 1;
+    flex-grow: 1;
+    /*flex-grow:1*/
+   /*background-color: lightcoral;*/
+}
+
+
+/* Textarea styles */
+#terugkoppeling {
+    font-family: 'Verdana', sans-serif;
+    line-height: 2;
+    font-size: 14px;
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+    /*margin: 5px;*/
+    box-sizing: border-box;
+}
