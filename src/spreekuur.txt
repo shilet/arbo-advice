@@ -12,7 +12,7 @@ huidige_uren; Op dit moment werkt {werknemernaam} {huidige_uren}.\n
 
 schema0;- Begin vanaf volgende week met {startschema}.\n
 
-status0; {Werknemernaam} werkt momenteel niet.\n
+status0; {Werknemernaam} werkt momenteel niet. \n
 status1; {Werknemernaam} werkt nu ongeveer {huidige_uren}. \n
 status2; Op dit moment werkt {werknemernaam} {huidige_uren} per week.\n
 
