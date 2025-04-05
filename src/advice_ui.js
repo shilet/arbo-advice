@@ -38,7 +38,7 @@ document.getElementById('slider_huidige_uren').addEventListener('input', onSubmi
 document.getElementById('pb').addEventListener('change', onSubmit);
 document.getElementById('sb').addEventListener('change', onSubmit);
 document.getElementById('fb').addEventListener('change', onSubmit);
-document.getElementById('eb').addEventListener('change', onSubmit);
+//document.getElementById('eb').addEventListener('change', onSubmit);
 document.querySelectorAll('input[name="diagnose_group"]').forEach(elem => {
     elem.addEventListener('change', onSubmit);
 });
@@ -66,7 +66,7 @@ function onSubmit() {
         'pb': document.getElementById('pb').checked,
         'sb': document.getElementById('sb').checked,
         'fb': document.getElementById('fb').checked,
-        'eb': document.getElementById('eb').checked,
+//        'eb': document.getElementById('eb').checked,
         'diagnose_group': document.querySelector('input[name="diagnose_group"]:checked').value,
         'opbouw': document.querySelector('input[name="opbouw_group"]:checked').value,
         'fase': document.querySelector('input[name="fase_group"]:checked').value,
