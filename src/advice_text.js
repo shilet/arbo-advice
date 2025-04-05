@@ -21,7 +21,7 @@ function readCSVFile(filename) {
 
 // Load the CSV file once when the page loads
 document.addEventListener("DOMContentLoaded", function() {
-    readCSVFile('spreekuur.txt').then(() => {
+    readCSVFile('./spreekuur.txt').then(() => {
         console.log('CSV data loaded into dfZinnen:', dfZinnen);
     });
 });
