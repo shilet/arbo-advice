@@ -8,22 +8,15 @@ git commit -m "Force deploy update"
 git push
 
 ----------------------------------
-Eerste keer:
+Lokaal:
+- rm -rf node_modules/ package-lock.json
+- copieer alle source files naar directory src
+- npm install --save-dev parcel-bundler
+- npm init -y
+- npm run build
+- npm start
+- copieer de textfile naar de dist directory: cp spreekuur.txt ../dist/
 
-copieer alle source files naar directory src
-
-npm install --save-dev parcel-bundler
-npm init -y
-
-npm run build
-npm start
-
-copieer de textfile naar de dist directory
-cp spreekuur.txt ../dist/
-
-Bij opnieuw runnen: 
-  rm -rf node_modules/ package-lock.json
-   
    
 package.json:
   "name": "arbo-advice",

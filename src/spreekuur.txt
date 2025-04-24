@@ -1,8 +1,8 @@
 ao;GESCHIKTHEID\n{Werknemernaam} ervaart gezondheidsklachten waardoor het momenteel niet lukt om de werkzaamheden van de functie volledig uit te voeren. Hieronder leest u mijn advies over de belastbaarheid en de onderbouwing daarvan.\n\n
 
-ao_geenziekte;GESCHIKTHEID\n{Werknemernaam} ervaart gezondheidsklachten waardoor het momenteel niet lukt om de werkzaamheden van de functie volledig uit te voeren. Naar mijn oordeel is er geen sprake van ziekte in medische zin, maar zijn de klachten het gevolg van overbelasting. Hieronder leest u mijn advies over de belastbaarheid en de onderbouwing daarvan.\n\n
+ao_overbelast;GESCHIKTHEID\n{Werknemernaam} ervaart gezondheidsklachten waardoor het momenteel niet lukt om de werkzaamheden van de functie volledig uit te voeren. Naar mijn oordeel is er geen sprake van ziekte in medische zin, maar zijn de klachten het gevolg van overbelasting. Hieronder leest u mijn advies over de belastbaarheid en de onderbouwing daarvan.\n\n
 
-ao_ziekte;GESCHIKTHEID\n{Werknemernaam} heeft beperkingen als gevolg van ziekte of gebrek. Vanwege deze beperkingen kan {gender} de werkzaamheden van de eigen functie niet volledig uitvoeren. Hieronder leest u mijn advies over de belastbaarheid en de onderbouwing daarvan.\n
+ao_ziekte;GESCHIKTHEID\n{Werknemernaam} heeft beperkingen als gevolg van ziekte of gebrek. Vanwege deze beperkingen kan {gender} de werkzaamheden van de eigen functie niet volledig uitvoeren. Hieronder leest u mijn advies over de belastbaarheid en de onderbouwing daarvan.\n\n
 
 update;\nUPDATE\n
 reintegratie;\nREINTEGRATIE-ADVIES\n

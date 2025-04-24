@@ -65,7 +65,7 @@ function onSubmit() {
     let values = {
         'naam': document.getElementById('naam').value,
         'gender': document.querySelector('input[name="gender_group"]:checked').value,
-        'ao': document.querySelector('input[name="ao_group"]:checked').value,
+        'ao_group': document.querySelector('input[name="ao_group"]:checked').value,
          //'contract_uren': document.getElementById('slider_contracturen').value,
         'huidige_uren': document.getElementById('slider_huidige_uren').value,
         'pb': document.getElementById('pb').checked,
