@@ -9,11 +9,11 @@
         <!-- PyScript CSS -->
         <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
 
-        <!-- This script tag bootstraps PyScript d -->
-        <script src="https://pyscript.net/releases/2024.1.1/core.js" defer=""></script>
+        <!-- This script tag bootstraps PyScript -->
+        <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
 
         <!-- own css-->
-        <link rel="stylesheet" href="src/advice.css">
+        <link rel="stylesheet" href="./advice.css" />
         <title>Advice App</title>
     </head>
 
@@ -28,8 +28,15 @@
 
     <!-- Gender Selection -->
     <label for="gender_group"><strong>Gender:</strong></label>
-    <input type="radio" id="gender_vrouw" name="gender_group" value="vrouw" checked=""> Vrouw
+    <input type="radio" id="gender_vrouw" name="gender_group" value="vrouw" checked> Vrouw
     <input type="radio" id="gender_man" name="gender_group" value="man"> Man<br><br>
+
+    <!-- Geschiktheid -->
+    <label for="ao_group"><strong>AO:</strong></label>
+     <input type="radio" id="ao" name="ao_group" value="ao" checked> Klachten
+     <input type="radio" id="ao_overbelast" name="ao_group" value="ao_overbelast"> Overbelasting
+     <input type="radio" id="ao_ziek" name="ao_group" value="ao_ziek"> Ziek
+     <br><br>
 
     <!-- Contract and Current Work Hours Sliders -->
     <!--<label for="slider_contracturen">Contracturen (uur/week):</label>-->
@@ -42,12 +49,12 @@
     <label><strong>Beperkingen:</strong></label>
     <input type="checkbox" id="pb"> Persoonlijk
     <input type="checkbox" id="sb"> Sociaal
-    <input type="checkbox" id="fb"> Fysiek
-    <input type="checkbox" id="eb" checked=""> Energie<br><br>
+    <input type="checkbox" id="fb"> Fysiek<br><br>
+    <!-- input type="checkbox" id="eb" checked> Energie<br><br> -->
 
     <!-- Diagnosis Group Selection -->
     <strong><label for="diagnose_group">Diagnose:</label></strong>
-    <input type="radio" id="diagnose_other" name="diagnose_group" value="other" checked=""> Other
+    <input type="radio" id="diagnose_other" name="diagnose_group" value="other" checked> Other
     <input type="radio" id="diagnose_mental" name="diagnose_group" value="mental"> Mental<br><br>
 
     <blockquote>
@@ -58,14 +65,14 @@
         <input type="radio" id="contact" name="werk_group" value="contact"> Contact
         <input type="radio" id="koffie" name="werk_group" value="koffie"> Koffie
         <input type="radio" id="aangepast_werk" name="werk_group" value="aangepast_werk"> Aangepast werk
-        <input type="radio" id="eigen_werk" name="werk_group" value="eigen_werk" checked=""> Eigen werk<br><br>
+        <input type="radio" id="eigen_werk" name="werk_group" value="eigen_werk" checked> Eigen werk<br><br>
     </div>
     </div>
 
     <div id="col_mental_diag">
     <strong><div>Herstelfase</div></strong>
     <div id="fase_group">
-        <input type="radio" id="fase0" name="fase_group" value="fase0" checked=""> Fase 0
+        <input type="radio" id="fase0" name="fase_group" value="fase0" checked> Fase 0
         <input type="radio" id="fase1" name="fase_group" value="fase1"> Fase 1
         <input type="radio" id="fase2" name="fase_group" value="fase2"> Fase 2
         <input type="radio" id="stagnatie" name="fase_group" value="fase3"> Stagnatie
@@ -76,9 +83,9 @@
 
     <!-- Start Schema and Prognosis -->
     <strong><label for="startschema">Startschema:</label></strong>
-    <input type="text" id="startschema" value="3 dagen van 2 uur">
+    <input type="text" id="startschema" value="3 halve dagen">
     <div id="opbouw_group">
-        <input type="radio" id="opbouw" name="opbouw_group" value="opbouw" checked="">  Opbouw
+        <input type="radio" id="opbouw" name="opbouw_group" value="opbouw" checked>  Opbouw
         <input type="radio" id="geen_opbouw" name="opbouw_group" value="geen_opbouw"> Geen opbouw
     </div>
     <br>
@@ -95,11 +102,11 @@
 
     <!-- Text Area for Output -->
     <div id="rightPane">
-    <textarea id="terugkoppeling" spellcheck="false" rows="10" cols="50">Schrijf hier eigen advies</textarea><br><br>
+    <textarea id="terugkoppeling" spellcheck=false rows="10" cols="50">Schrijf hier eigen advies</textarea><br><br>
     </div></div>
 
-    <script src="src/advice_ui.js"></script>
-    <script src="src/advice_text.js"></script>
+    <script src="advice_ui.js"></script>
+    <script src="advice_text.js"></script>
     </body>
 
 </html>
