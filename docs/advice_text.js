@@ -1,4 +1,3 @@
-//test
 let dfZinnen = {};
 
 function readCSVFile(filename) {
@@ -67,6 +66,7 @@ function maakTerugkoppeling(values) {
     let strHuidigeUren = huidigeUren === 0 ? " nog niet" : `${huidigeUren} uren`;
 
     // Constructing text components
+    let textAo = "";
     if (values['ao_group'] == 'ao'){
          let textAo = dfZinnen['ao'];
     }
