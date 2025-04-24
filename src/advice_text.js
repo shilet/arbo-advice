@@ -1,4 +1,3 @@
-//test
 let dfZinnen = {};
 
 function readCSVFile(filename) {
