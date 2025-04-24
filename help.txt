@@ -1,4 +1,9 @@
 GITHUB
+Automatische deploy vanaf pages wanneer er veranderingen zijn.
+NB. Copieer alle src naar directory docs, van daaruit vindt deploy plaats!!!
+
+----------------------------------
+Eerste keer:
 
 copieer alle source files naar directory src
 
