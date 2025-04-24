@@ -66,7 +66,16 @@ function maakTerugkoppeling(values) {
     let strHuidigeUren = huidigeUren === 0 ? " nog niet" : `${huidigeUren} uren`;
 
     // Constructing text components
-    let textAo = dfZinnen['ao'];
+    if (values['ao_group'] == 'ao'){
+         let textAo = dfZinnen['ao'];
+    }
+    else if (values['ao_group'] == 'ao_ziek'){
+         let textAo = dfZinnen['ao_ziek'];
+    }
+    else{
+         let textAo = dfZinnen['ao_overbelast'];
+    }
+
     console.log("AO: ", textAo, "\nstartschema: ", startschema)
     let textStatus = dfZinnen['update'] + (huidigeUren === 0 ? dfZinnen['status0'] : dfZinnen['status1']);
 
