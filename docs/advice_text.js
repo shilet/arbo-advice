@@ -68,13 +68,13 @@ function maakTerugkoppeling(values) {
     // Constructing text components
     let textAo = "";
     if (values['ao_group'] == 'ao'){
-         let textAo = dfZinnen['ao'];
+         textAo = dfZinnen['ao'];
     }
     else if (values['ao_group'] == 'ao_ziek'){
-         let textAo = dfZinnen['ao_ziek'];
+         textAo = dfZinnen['ao_ziek'];
     }
     else{
-         let textAo = dfZinnen['ao_overbelast'];
+         textAo = dfZinnen['ao_overbelast'];
     }
 
     console.log("AO: ", textAo, "\nstartschema: ", startschema)
