@@ -4,8 +4,6 @@ ao_geenziekte;GESCHIKTHEID\n{Werknemernaam} ervaart gezondheidsklachten waardoor
 
 ao_ziekte;GESCHIKTHEID\n{Werknemernaam} heeft beperkingen als gevolg van ziekte of gebrek. Vanwege deze beperkingen kan {gender} de werkzaamheden van de eigen functie niet volledig uitvoeren. Hieronder leest u mijn advies over de belastbaarheid en de onderbouwing daarvan.\n
 
-ao;GESCHIKTHEID\n{Werknemernaam} heeft beperkingen als gevolg van ziekte of gebrek. Vanwege deze beperkingen kan {gender} de werkzaamheden van de eigen functie niet volledig uitvoeren. Hieronder leest u mijn advies over de belastbaarheid en de onderbouwing daarvan.\n
-
 update;\nUPDATE\n
 reintegratie;\nREINTEGRATIE-ADVIES\n
 
